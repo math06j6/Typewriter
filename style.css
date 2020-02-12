@@ -1,1 +1,22 @@
+:root {
+  --backgroundColor: #202020;
+  --baseColor: white;
+  --colorTwo: #6e6e6e;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  background: var(--backgroundColor);
+  color: var(--baseColor);
+}
